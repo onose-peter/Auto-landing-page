@@ -218,7 +218,9 @@ header{
 
 .testimonials{
   margin: 50px auto;
-  background: rgba(240, 240, 240, 0.301);
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.965), rgba(255, 255, 255, 0.972)),
+    url('/assets/TYRE-removebg-preview\ 4.png');
 }
 
 .testimonials h1{
@@ -275,7 +277,9 @@ header{
   box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
   transition: .5s;
 }
-
+.star{
+  color: gold;
+}
 
 /* Footer */
 
